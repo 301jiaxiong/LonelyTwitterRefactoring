@@ -13,7 +13,7 @@
     <ListView
         android:id="@+id/oldTweetsList"
         android:layout_width="fill_parent"
-        android:layout_height="263dp"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:scrollbars="vertical" >
 
@@ -27,8 +27,11 @@
     
     <EditText
         android:id="@+id/body"
+        android:labelFor="@id/body"
+        android:inputType="text"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+
         android:scrollbars="horizontal" />
 
     <Button

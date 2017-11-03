@@ -12,6 +12,8 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import ca.ualberta.cs.lonelytweet.NormalLonelyTweet;
+import ca.ualberta.cs.lonelytwitter.R;
+import ca.ualberta.cs.lonelytwitter.TweetsFileManager;
 
 public class LonelyTwitterActivity extends Activity {
 
